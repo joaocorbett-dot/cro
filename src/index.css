@@ -142,8 +142,9 @@ img {
 }
 
 .brand-logo.size-lg {
-  width: 220px;
-  height: 220px;
+  width: 100%;
+  max-width: 520px;
+  height: auto;
 }
 
 /* ---------- Hero ---------- */
@@ -562,8 +563,7 @@ img {
   }
 
   .brand-logo.size-lg {
-    width: 150px;
-    height: 150px;
+    max-width: 260px;
   }
 
   .field-row {
